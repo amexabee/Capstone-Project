@@ -15,38 +15,12 @@ open.addEventListener('click', () => {
     </li>
     <button type="button" class="menu-2"><img src="images/arrow_down.png" alt=""></button>
     <li class="hide"><a href="#">Application for participation</a></li>
-    <li class="hide"><a href="#">About</a></li>
+    <li class="hide"><a href="about.html">About</a></li>
     <li class="hide"><a href="#">News</a></li>
     <li id="live"><a href="#">presentation</a></li>
     </ul>
     `;
   body.appendChild(popup);
-
-  //     const scroll = document.querySelector('.menu-1')
-  //     scroll.addEventListener('click', () => {
-  //         const submenu = document.getElementById("sub-menu-1");
-  //         const add = document.querySelector('#add-em')
-  //         submenu.appendChild(add);
-
-  //         const close = document.querySelector('.menu-1');
-  //         close.addEventListener('click', () => {
-  //             submenu.removeChild(add);
-  //     })
-
-  // })
-
-  // const scroll1 = document.querySelector('.menu-2')
-  // scroll1.addEventListener('click', () => {
-  //     const submenu = document.getElementById("sub-menu-2");
-  //     const add = document.querySelector('#add-er')
-  //     submenu.appendChild(add);
-
-  //     const close = document.querySelector('.menu-2');
-  //     close.addEventListener('click', () => {
-  //         submenu.removeChild(add);
-  // })
-
-  // })
 
   const close = document.querySelector('.close');
   close.addEventListener('click', () => {
@@ -58,45 +32,39 @@ const speakers = {
   speakerList: [
     {
       image: 'images/speaker_01.png',
-      name: 'yohai benkler',
-      nickname: 'Yohai Benkler',
-      position: 'Professor at Harvard Law School',
-      experience: 'Focusing on a collaborative approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia.',
+      name: 'Yohai Benkler',
+      position: 'Berkman Professor of Enterpreneurial Legal Studies at Harvard Law School',
+      experience: 'Benkler studies commons-based peer production, and published his seminal book: The Wealth of Networks in 2006.',
     },
     {
       image: 'images/speaker_02.png',
-      name: 'Jeon Gil-nam',
-      nickname: 'Kilnam Chon',
-      position: 'Emeritus Professor, Korea Advanced Institute of Science and Technology (KAIST)',
-      experience: 'By developing Asia\'s first Internet protocol network SDN and leading Korea\'s first private line Internet connection in 1990, it ushered in the era of the Internet in earnest.',
+      name: 'Kilnam Chon',
+      position: ' ',
+      experience: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital commons in 2012, he was inducted into the inaugural class of the Internet Society\'s (ISOC) Internet Hall of Fame.',
     },
     {
       image: 'images/speaker_03.png',
-      name: 'Noh So-young',
-      nickname: 'Sohyeong Noh',
-      position: 'Art Center Nabi Director, CC Korea Director',
-      experience: 'As the author of <Digital Art Art of Our Time>, he opened \'Art Center Nabi\', Korea\'s first digital art institution in 2000, and is currently serving.',
+      name: 'SohYeong Noh',
+      position: 'Director of Art Center Nabi and a board member of CC Korea',
+      experience: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities and the arts.',
     },
     {
       image: 'images/speaker_04.png',
       name: 'Julia Leda',
-      nickname: 'Julia Reda',
-      position: 'Head of the Young Pirates of Europe',
-      experience: 'European integration and online youth participation in politics and democracy are major concerns, and a report has been published that will potentially affect the revision of the EU\'s copyright law in July.',
+      position: 'President of Young Pirates of Europe',
+      experience: 'European integration, political democracy and participation of youth through online as her major concern. Reda\'s report outlining potential changes to EU copyright law was approved by the Parliament in July.',
     },
     {
       image: 'images/speaker_05.png',
-      name: 'Layla Trettikov',
-      nickname: 'Lila Tretikov',
-      position: 'Secretary General of the Wikimedia Foundation',
-      experience: 'Layla Tretikov is the general secretary of the Wikimedia Foundation, a non-profit organization that runs Wikipedia. Wikipedia is provided free of charge in 290 languages ​​every month to over 100 million people, nearly half of the world\'s population.',
+      name: 'Lila Trettikov',
+      position: 'Executive Director of the Wikimedia Foundation',
+      experience: 'Lila Tretikov is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languages and used by nearly half a billion people around the world every month.',
     },
     {
       image: 'images/speaker_06.png',
       name: 'Ryan Merkley',
-      nickname: 'Ryan Merkley',
-      position: 'Creative Commons CEO, Former Mozilla Foundation COO',
-      experience: 'He led open source projects at the Mozilla Foundation and joined CC as CEO in 2014. He has been active in open movements such as open government and open source.',
+      position: 'CEO of Creative Commons, ex COO of the Mozilla Foundation',
+      experience: 'Ryan has been leading open-source projects at the Mozilla Foundation such as open source movement.',
     },
   ],
 };
@@ -108,7 +76,6 @@ speakers.speakerList.forEach((s) => {
             <img src="${s.image}" alt="">
           </div>
           <div class="name"><a href="">${s.name}</a></div>
-          <div class="nickname"><a href="">${s.nickname}</a></div>
           <div class="position">${s.position}</div>
           <div class="guide-line"></div>
           <div class="experience">${s.experience}</div>

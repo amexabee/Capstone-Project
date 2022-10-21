@@ -97,9 +97,31 @@ main section img {
   padding-left: 20px;
 }
 
-#highlights {
+#highlights,
+#conf-logo {
   text-align: center;
-  color: #ec5242;
+  color: #272a31;
+}
+
+#highlights h2,
+#conf-logo h2 {
+  margin: 50px 0 0 0;
+}
+
+#conf-logo p {
+  padding: 0 200px;
+}
+
+#conf-logo img {
+  width: 350px;
+  margin-top: 40px;
+  border: 1px solid #d3d3d3;
+  padding: 50px;
+}
+
+.border {
+  margin: 80px 0 30px 0;
+  border-top: 1px solid #d3d3d3;
 }
 
 footer section img {
@@ -121,7 +143,8 @@ footer section img:last-child {
 
 #highlights img {
   width: 40%;
-  padding: 20px;
+  padding: 40px 20px;
+  margin-bottom: 50px;
 }
 
 .btn {
@@ -217,23 +240,45 @@ main section {
   background-color: rgb(247, 247, 248);
 }
 
-footer {
-  background-color: rgb(46, 46, 46);
+.partners {
+  text-align: center;
+  background-color: #272a31;
+  height: 300px;
+}
+
+.partners h3 {
+  color: #d3d3d3;
+  font-size: 24px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.partners section {
+  padding-top: 60px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.partners img {
+  width: 100px;
+  margin: 0;
+  padding: 20px;
+}
+
+footer {
+  background-color: #d3d3d3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #272a31;
   font-size: 0.75rem;
   padding: 24px 24px;
 }
 
-.red-link {
-  color: #ef513c;
-  cursor: pointer;
-}
-
-.red-link:hover {
-  text-decoration: underline;
+footer img {
+  padding: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -312,27 +357,13 @@ footer {
   }
 
   footer {
-    padding: 24px;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
     font-size: 0.875rem;
   }
 
-  footer section {
-    width: 60%;
-  }
-
-  #my-logo {
-    padding: 32px 0 0 0;
-  }
-
-  footer section img:first-child {
-    width: auto;
-    padding: 24px 0 12px 0;
-  }
-
-  footer section img:last-child {
-    width: auto;
+  .guide-bar {
+    width: 53px;
+    height: 16px;
+    border-bottom: 1px solid rgb(239, 81, 60);
+    margin: 0px auto 5px;
   }
 }

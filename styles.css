@@ -252,7 +252,7 @@ main section {
   width: 53px;
   height: 16px;
   border-bottom: 1px solid rgb(239, 81, 60);
-  margin: 0 auto 54px;
+  margin: 10px auto 54px;
 }
 
 .program-subtitle {
@@ -266,6 +266,19 @@ main section {
   margin-top: 0;
   padding: 0;
   line-height: 1.5em;
+}
+
+#join-program {
+  font-size: 1.125em;
+  font-weight: bold;
+  background-color: #ef513c;
+  margin-top: 20px;
+  padding: 15px 15px;
+  color: #fff;
+}
+
+#full-program {
+  display: none;
 }
 
 .main-speakers {
@@ -318,15 +331,10 @@ main section {
 
 .name {
   font-size: 16px;
+  font-weight: bold;
   text-align: left;
   vertical-align: bottom;
   margin-top: 28px;
-}
-
-.nickname {
-  font-size: 14px;
-  text-align: left;
-  margin-top: 0;
 }
 
 .position {
@@ -346,32 +354,44 @@ main section {
   float: left;
 }
 
-footer {
-  background-color: rgb(46, 46, 46);
+.partners {
+  text-align: center;
+  background-color: #272a31;
+  height: 300px;
+}
+
+.partners h3 {
+  color: #d3d3d3;
+  font-size: 24px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.partners section {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.partners img {
+  width: 100px;
+  margin: 0;
+  padding: 20px;
+}
+
+footer {
+  background-color: #d3d3d3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #272a31;
   font-size: 0.75rem;
   padding: 24px 24px;
 }
 
-footer section img:first-child {
-  width: 25%;
-  padding-left: 64px;
-}
-
-footer section img:last-child {
-  width: 35%;
-}
-
-.red-link {
-  color: #ef513c;
-  cursor: pointer;
-}
-
-.red-link:hover {
-  text-decoration: underline;
+footer img {
+  padding: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -383,7 +403,9 @@ footer section img:last-child {
     align-items: flex-end;
   }
 
-  .desktop-only li:nth-child(3) {
+  .desktop-only li:nth-child(3),
+  .desktop-only li:nth-child(4),
+  .desktop-only li:nth-child(5) {
     padding-bottom: 0.3rem;
   }
 
@@ -471,10 +493,6 @@ footer section img:last-child {
     font-size: 30px;
   }
 
-  footer section {
-    width: 60%;
-  }
-
   .program section {
     display: flex;
     justify-content: center;
@@ -487,8 +505,13 @@ footer section img:last-child {
     text-align: center;
     margin: 1.5px;
     width: calc(20% - 50px);
-    height: 205px;
+    height: 220px;
     overflow: hidden;
+  }
+
+  .program section > div:hover {
+    cursor: pointer;
+    border: 2px solid rgb(194, 194, 194);
   }
 
   .program-subtitle {
@@ -503,6 +526,21 @@ footer section img:last-child {
     text-align: center;
     font-size: 0.813em;
     padding: 20px 17px;
+  }
+
+  #join-program {
+    display: none;
+  }
+
+  #full-program {
+    display: block;
+    font-size: 20px;
+    margin-top: 100px;
+  }
+
+  #full-program a {
+    text-decoration: underline;
+    color: #fff;
   }
 
   .speaker-section {
@@ -526,13 +564,13 @@ footer section img:last-child {
   .name {
     font-size: 22px;
     margin-top: 0.725rem;
-  }
-
-  .nickname {
-    margin-top: 5px;
+    font-weight: bold;
   }
 
   .guide-line {
+    position: relative;
+    left: 210px;
+    top: 10px;
     width: 24px;
     border-top: 1px solid rgb(194, 194, 194);
     margin-bottom: 24px;
@@ -540,29 +578,8 @@ footer section img:last-child {
 
   .experience {
     font-size: 0.875rem;
-    line-height: 24px;
+    line-height: 18px;
     word-break: keep-all;
     float: none;
-  }
-
-  footer {
-    padding: 24px;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    font-size: 0.875rem;
-  }
-
-  #my-logo {
-    padding: 32px 0 0 0;
-  }
-
-  footer section img:first-child {
-    width: auto;
-    padding: 24px 0 12px 0;
-  }
-
-  footer section img:last-child {
-    width: auto;
   }
 }

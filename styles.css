@@ -33,6 +33,10 @@ li a {
   box-shadow: rgb(0 0 0 / 30%) 0 2px 8px 0;
 }
 
+footer img {
+  padding: 60px;
+}
+
 main section img {
   width: 90%;
 }
@@ -388,10 +392,6 @@ footer {
   color: #272a31;
   font-size: 0.75rem;
   padding: 24px 24px;
-}
-
-footer img {
-  padding: 60px;
 }
 
 @media screen and (min-width: 768px) {

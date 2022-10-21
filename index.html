@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -28,16 +32,16 @@
           </ul>
         </article>
         <article class="navigation">
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+          <div class="mobile-menu-btn">
+            <button type="button" class="btn">
+              <img src="images/mobile_menu.png" alt="" />
+            </button>
           </div>
           <div class="logo">
             <a href="#"><img src="images/logo.png" alt="" /></a>
           </div>
           <section class="menus">
-            <ul>
+            <ul class="nav-menu">
               <li data-target="submenu-1" id="menu-1">
                 <a href="#">Event Introduction</a>
               </li>
@@ -45,47 +49,56 @@
                 <a href="#">program</a>
               </li>
               <li><a href="#">Application for participation</a></li>
-              <li><a href="#">sponsor</a></li>
+              <li><a href="#">About</a></li>
               <li><a href="#">News</a></li>
-              <li id="live"><a href="#">Presentation</a></li>
+              <li id="live"><a href="#">presentation</a></li>
             </ul>
           </section>
         </article>
         <div class="sub-menus">
           <div class="main-sub-menu" id="submenu-1">
-            <div class="class-area">
-              <img src="images/arrow_up.png" alt="" />
-            </div>
-            <a href="#">CC Global Summit</a><a href="#">Hosting and Hosting</a
-            ><a href="#">Venue</a>
+            <img src="images/arrow_up.png" alt="" />
+            <ul id="add-em">
+              <li><a href="#">CC Global Summit</a></li>
+              <li><a href="#">Hosting and Hosting</a></li>
+              <li><a href="#">Venue</a></li>
+            </ul>
           </div>
           <div class="main-sub-menu" id="submenu-2">
-            <div class="class-area">
-              <img src="images/arrow_up.png" alt="" />
-            </div>
-            <a href="#">All Program</a><a href="#">Speaker Introduction</a
-            ><a href="#">Exhibition</a><a href="#">Keywords</a>
+            <img src="images/arrow_up.png" alt="" />
+            <ul id="add-er">
+              <li><a href="#">All Program</a></li>
+              <li><a href="#">Speaker Introduction</a></li>
+              <li><a href="#">Exhibition</a></li>
+              <li><a href="#">Keywords</a></li>
+            </ul>
           </div>
         </div>
       </nav>
     </header>
     <main>
-      <section>
-        <img src="images/title.png" alt="" />
+      <section class="main">
+        <!-- <img src="images/title.png" alt="" /> -->
+        <div class="greeting">"Hello, Sharing world!"</div>
+        <div class="title">
+          COMPUTER SCIENCE <br />
+          CONFERENCE <br />
+          2022
+        </div>
         <div class="message">
           A fun festival where people from more than 80 countries who believe in
           the value of sharing and openness and create positive change gather
           and share ideas will be held in Korea in October.
         </div>
         <div class="location">
-          <div class="date-info">2015.10.14 (Wed) ~ 17 (Sat)</div>
+          <div class="date-info">2022.12.14 (Wed) ~ 17 (Sat)</div>
           <div class="locate">
-            @ National Museum of Korea, Art Center Nabi, etc.
+            @ National Museum of Cyprus, Art Center, etc.
           </div>
         </div>
       </section>
     </main>
-    <footer>
+    <section class="program">
       <h1 class="normal">Main Program</h1>
       <div class="guide-bar"></div>
       <section>
@@ -103,10 +116,10 @@
           <div class="program-icon">
             <img src="images/program_icon_02.png" alt="" />
           </div>
-          <div class="program-subtitle">CC exhibition</div>
+          <div class="program-subtitle">CS exhibition</div>
           <div class="program-description">
             Let's meet the creations of artists from various fields who share
-            the open spirit of CC.
+            the open spirit of CS.
           </div>
         </div>
         <div class="program-list">
@@ -133,13 +146,44 @@
           <div class="program-icon">
             <img src="images/program_icon_05.png" alt="" />
           </div>
-          <div class="program-subtitle">CC party</div>
+          <div class="program-subtitle">CS party</div>
           <div class="program-description">
-            Create opportunities to freely network with CC personnel from around
+            Create opportunities to freely network with CS personnel from around
             the world.
           </div>
         </div>
       </section>
+    </section>
+    <div class="main-speakers">
+      <section class="speaker-section">
+        <h1>main speaker</h1>
+        <div class="line"></div>
+        <div class="speaker-list"></div>
+      </section>
+    </div>
+    <footer>
+      <img id="my-logo" src="images/88x31.png" alt="" />
+      <section>
+        <span
+          ><img src="images/logo_cc_w_147x35.png" alt="" />
+          <img src="images/logo_cck_w_208x35.png" alt=""
+        /></span>
+        <article>
+          Some Rights Reserved. <br />
+          <br />
+          Unless otherwise specified, all content on the website is available
+          under a Creative Commons Attribution 2.0 Korea License. Please see
+          <div class="red-link">
+            http://creativecommons.org/licences/by/2.0/kr
+          </div>
+          for detailed usage function details and permission conditions .
+          Creative Commons Global Summit is committed to providing a
+          harassment-free meeting experience for all.
+          <span class="red-link">See our Code of Conduct</span> and
+          <span class="red-link">Non-Infringement Policy</span>.
+        </article>
+      </section>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

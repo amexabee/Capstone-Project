@@ -14,9 +14,9 @@ open.addEventListener('click', () => {
       <a href="#">program</a>
     </li>
     <button type="button" class="menu-2"><img src="images/arrow_down.png" alt=""></button>
-    <li><a href="#">Application for participation</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">News</a></li>
+    <li class="hide"><a href="#">Application for participation</a></li>
+    <li class="hide"><a href="#">About</a></li>
+    <li class="hide"><a href="#">News</a></li>
     <li id="live"><a href="#">presentation</a></li>
     </ul>
     `;

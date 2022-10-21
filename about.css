@@ -85,6 +85,13 @@ main section img {
   display: none;
 }
 
+.menus li a {
+  color: rgb(136, 136, 136);
+  font-size: 0.938em;
+  font-weight: bold;
+  padding-right: 30px;
+}
+
 .contact-us a:nth-child(n) {
   text-decoration: none;
   padding-left: 20px;
@@ -95,17 +102,26 @@ main section img {
   color: #ec5242;
 }
 
-#highlights img {
-  width: 40%;
-  padding: 20px;
-}
-
 footer section img {
   padding: 12px 24px;
 }
 
 .mobile-menu-btn img {
   width: 20px;
+}
+
+footer section img:first-child {
+  width: 25%;
+  padding-left: 64px;
+}
+
+footer section img:last-child {
+  width: 35%;
+}
+
+#highlights img {
+  width: 40%;
+  padding: 20px;
 }
 
 .btn {
@@ -146,13 +162,6 @@ footer section img {
 #add-em li,
 #add-er li {
   border: none;
-}
-
-.menus li a {
-  color: rgb(136, 136, 136);
-  font-size: 0.938em;
-  font-weight: bold;
-  padding-right: 30px;
 }
 
 #live a {
@@ -216,15 +225,6 @@ footer {
   color: #fff;
   font-size: 0.75rem;
   padding: 24px 24px;
-}
-
-footer section img:first-child {
-  width: 25%;
-  padding-left: 64px;
-}
-
-footer section img:last-child {
-  width: 35%;
 }
 
 .red-link {

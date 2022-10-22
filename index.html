@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="desktop-only">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/"
+                ><img src="images/facebook.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/"
+                ><img src="images/twitter.png" alt=""
+              /></a>
+            </li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">My Page</a></li>
+            <li><a href="#">Log Out</a></li>
+          </ul>
+        </div>
+        <div class="navigation">
+          <div class="mobile-menu-btn">
+            <button type="button" class="btn">
+              <img src="images/mobile_menu.png" alt="" />
+            </button>
+          </div>
+          <div class="logo">
+            <a href="#"><img src="images/logo.png" alt="" /></a>
+          </div>
+          <section class="menus">
+            <ul class="nav-menu">
+              <li data-target="submenu-1" id="menu-1">
+                <a href="#">Event Introduction</a>
+              </li>
+              <li data-target="submenu-2" id="menu-2">
+                <a href="#">program</a>
+              </li>
+              <li><a href="#">Application for participation</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#">News</a></li>
+              <li id="live"><a href="#">presentation</a></li>
+            </ul>
+          </section>
+        </div>
+        <div class="sub-menus">
+          <div class="main-sub-menu" id="submenu-1">
+            <img src="images/arrow_up.png" alt="" />
+            <ul id="add-em">
+              <li><a href="#">CC Global Summit</a></li>
+              <li><a href="#">Hosting and Hosting</a></li>
+              <li><a href="#">Venue</a></li>
+            </ul>
+          </div>
+          <div class="main-sub-menu" id="submenu-2">
+            <img src="images/arrow_up.png" alt="" />
+            <ul id="add-er">
+              <li><a href="#">All Program</a></li>
+              <li><a href="#">Speaker Introduction</a></li>
+              <li><a href="#">Exhibition</a></li>
+              <li><a href="#">Keywords</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="main">
+        <div class="greeting">"Hello, Sharing world!"</div>
+        <div class="title">
+          COMPUTER SCIENCE <br />
+          CONFERENCE <br />
+          2022
+        </div>
+        <div class="message">
+          A fun festival where people from more than 80 countries who believe in
+          the value of sharing and openness and create positive change gather
+          and share ideas will be held in Cyprus in December.
+        </div>
+        <div class="location">
+          <div class="date-info">2022.12.14 (Wed) ~ 17 (Sat)</div>
+          <div class="locate">
+            @ National Museum of Cyprus, Art Center, etc.
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="program">
+      <h1 class="normal">Main Program</h1>
+      <div class="guide-bar"></div>
+      <section>
+        <div class="program-list">
+          <div class="program-icon">
+            <img src="images/program_icon_01.png" alt="" />
+          </div>
+          <div class="program-subtitle">conference</div>
+          <div class="program-description">
+            Listen to lectures from speakers from around the world and learn
+            about the latest trends in the world.
+          </div>
+        </div>
+        <div class="program-list">
+          <div class="program-icon">
+            <img src="images/program_icon_02.png" alt="" />
+          </div>
+          <div class="program-subtitle">CS exhibition</div>
+          <div class="program-description">
+            Let's meet the creations of artists from various fields who share
+            the open spirit of CS.
+          </div>
+        </div>
+        <div class="program-list">
+          <div class="program-icon">
+            <img src="images/program_icon_03.png" alt="" />
+          </div>
+          <div class="program-subtitle">forum</div>
+          <div class="program-description">
+            We have time to share our thoughts and opinions with experts by
+            topic.
+          </div>
+        </div>
+        <div class="program-list">
+          <div class="program-icon">
+            <img src="images/program_icon_04.png" alt="" />
+          </div>
+          <div class="program-subtitle">workshop</div>
+          <div class="program-description">
+            You can create your own creations using open source instead of just
+            looking at them.
+          </div>
+        </div>
+        <div class="program-list">
+          <div class="program-icon">
+            <img src="images/program_icon_05.png" alt="" />
+          </div>
+          <div class="program-subtitle">CS party</div>
+          <div class="program-description">
+            Create opportunities to freely network with CS personnel from around
+            the world.
+          </div>
+        </div>
+      </section>
+      <div id="join-program">Join CS Conference 2022</div>
+      <div id="full-program"><a href="#">SEE THE WHOLE PROGRAM</a></div>
+    </section>
+    <div class="main-speakers">
+      <section class="speaker-section">
+        <h1>Featured Speakers</h1>
+        <div class="line"></div>
+        <div class="speaker-list"></div>
+      </section>
+    </div>
+    <section class="partners">
+      <h3>Partner</h3>
+      <div class="guide-bar"></div>
+      <section>
+        <img src="images/mozilla.png" alt="" />
+        <img src="images/Google.png" alt="" />
+        <img src="images/navar.png" alt="" />
+        <img src="images/daumkakao.svg" alt="" />
+        <img src="images/airbnb.png" alt="" />
+      </section>
+    </section>
+    <footer>
+      <img src="images/logo.png" alt="" />
+      <div>
+        2022 Computer Science Conferience <br />
+        Some Rights Reserved.
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

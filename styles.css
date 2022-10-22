@@ -351,11 +351,11 @@ main section {
 .experience {
   font-size: 13px;
   text-align: left;
+  padding-top: 7px;
   padding-left: 20px;
   padding-right: 1rem;
   line-height: 150%;
   word-break: break-all;
-  float: left;
 }
 
 .partners {
@@ -581,5 +581,6 @@ footer {
     line-height: 18px;
     word-break: keep-all;
     float: none;
+    padding-top: 0;
   }
 }

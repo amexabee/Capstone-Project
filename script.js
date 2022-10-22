@@ -58,7 +58,7 @@ const speakers = {
       image: 'images/speaker_05.png',
       name: 'Lila Trettikov',
       position: 'Executive Director of the Wikimedia Foundation',
-      experience: 'Lila Tretikov is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languages and used by nearly half a billion people around the world every month.',
+      experience: 'Lila Tretikov is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languages and used monthly by nearly half a billion people.',
     },
     {
       image: 'images/speaker_06.png',

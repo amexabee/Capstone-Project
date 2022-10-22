@@ -112,8 +112,8 @@ main section img {
   margin: 50px 0 0 0;
 }
 
-#conf-logo p {
-  padding: 0 200px;
+.for-desktop {
+  display: none;
 }
 
 footer section img {
@@ -354,6 +354,15 @@ footer {
     line-height: 220%;
     padding: 10px 25px 0;
     font-size: 1.125em;
+  }
+
+  .for-mobile {
+    display: none;
+  }
+
+  #conf-logo .for-desktop {
+    display: block;
+    padding: 0 200px;
   }
 
   footer {

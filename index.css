@@ -3,7 +3,7 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  font-family: "Nanum Gothic", Arial, Helvetica, sans-serif;
+  font-family: 'Nanum Gothic', Arial, Helvetica, sans-serif;
 }
 
 .desktop-only {
@@ -507,11 +507,12 @@ footer {
     width: calc(20% - 50px);
     height: 220px;
     overflow: hidden;
+    border: 1px solid rgb(62, 62, 62);
   }
 
   .program section > div:hover {
     cursor: pointer;
-    border: 2px solid rgb(194, 194, 194);
+    border: 1px solid rgb(194, 194, 194);
   }
 
   .program-subtitle {

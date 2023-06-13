@@ -287,6 +287,7 @@ main section {
 
 .main-speakers {
   width: 100%;
+  height: auto;
   padding-bottom: 35px;
   border-bottom: 1px solid rgb(223, 223, 223);
 }
@@ -296,6 +297,7 @@ main section {
   padding-top: 79px;
   color: rgb(39, 42, 50);
   width: 90%;
+  height: auto;
   margin: 0 auto;
 }
 

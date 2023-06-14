@@ -207,7 +207,6 @@ main section {
   padding: 1em 0.5em;
   line-height: 150%;
   font-size: 13px;
-  height: auto;
   text-align: justify;
   border: 4px solid rgb(255, 255, 255);
   background-color: rgb(247, 247, 248);
@@ -228,7 +227,6 @@ main section {
   background-image: url(images/pattern_bg.png);
   background-repeat: repeat;
   background-color: rgb(39, 42, 50);
-  height: 637px;
   padding-bottom: 80px;
   display: flex;
   flex-direction: column;
@@ -254,7 +252,6 @@ main section {
 
 .guide-bar {
   width: 53px;
-  height: 16px;
   border-bottom: 1px solid rgb(239, 81, 60);
   margin: 10px auto 54px;
 }
@@ -287,7 +284,6 @@ main section {
 
 .main-speakers {
   width: 100%;
-  height: auto;
   padding-bottom: 35px;
   border-bottom: 1px solid rgb(223, 223, 223);
 }
@@ -297,7 +293,6 @@ main section {
   padding-top: 79px;
   color: rgb(39, 42, 50);
   width: 90%;
-  height: auto;
   margin: 0 auto;
 }
 
@@ -309,19 +304,16 @@ main section {
 
 .line {
   width: 53px;
-  height: 16px;
   border-bottom: 1px solid rgb(239, 81, 60);
   margin: 0 auto 54px;
 }
 
 .speaker-list {
   overflow: auto;
-  height: auto;
 }
 
 .speaker {
   width: 100%;
-  height: auto;
   margin: 0 0 1.5rem 0;
   border: 0;
   float: left;
@@ -361,7 +353,6 @@ main section {
 .partners {
   text-align: center;
   background-color: #272a31;
-  height: 300px;
 }
 
 .partners h3 {
@@ -443,7 +434,6 @@ footer {
 
   main {
     background: url(images/main_big.png);
-    height: 855px;
   }
 
   .greeting {
@@ -463,7 +453,6 @@ footer {
   .message {
     text-align: justify;
     border: 4px solid rgb(255, 255, 255);
-    height: 90px;
     width: 631px;
     margin: 15px 0 40px;
     line-height: 220%;
@@ -505,7 +494,6 @@ footer {
     text-align: center;
     margin: 1.5px;
     width: calc(20% - 50px);
-    height: 220px;
     overflow: hidden;
     border: 1px solid rgb(62, 62, 62);
   }
@@ -554,7 +542,6 @@ footer {
 
   .speaker {
     width: calc(50% - 10px);
-    height: 249px;
     margin: 0 0 0 10px;
   }
 

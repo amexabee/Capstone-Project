@@ -31,40 +31,47 @@ open.addEventListener('click', () => {
 const speakers = {
   speakerList: [
     {
-      image: 'images/speaker_01.png',
+      image: 'images/speakers/speaker_01.png',
       name: 'Yohai Benkler',
-      position: 'Berkman Professor of Enterpreneurial Legal Studies at Harvard Law School',
-      experience: 'Benkler studies commons-based peer production, and published his seminal book: The Wealth of Networks in 2006.',
+      position:
+        'Berkman Professor of Enterpreneurial Legal Studies at Harvard Law School',
+      experience:
+        'Benkler studies commons-based peer production, and published his seminal book: The Wealth of Networks in 2006.',
     },
     {
-      image: 'images/speaker_02.png',
+      image: 'images/speakers/speaker_02.png',
       name: 'Kilnam Chon',
       position: ' ',
-      experience: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital commons in 2012, he was inducted into the inaugural class of the Internet Society\'s (ISOC) Internet Hall of Fame.',
+      experience:
+        "Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital commons in 2012, he was inducted into the inaugural class of the Internet Society's (ISOC) Internet Hall of Fame.",
     },
     {
-      image: 'images/speaker_03.png',
+      image: 'images/speakers/speaker_03.png',
       name: 'SohYeong Noh',
       position: 'Director of Art Center Nabi and a board member of CC Korea',
-      experience: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities and the arts.',
+      experience:
+        'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities and the arts.',
     },
     {
-      image: 'images/speaker_04.png',
+      image: 'images/speakers/speaker_04.png',
       name: 'Julia Leda',
       position: 'President of Young Pirates of Europe',
-      experience: 'European integration, political democracy and participation of youth through online as her major concern. Reda\'s report outlining potential changes to EU copyright law was approved by the Parliament in July.',
+      experience:
+        "European integration, political democracy and participation of youth through online as her major concern. Reda's report outlining potential changes to EU copyright law was approved by the Parliament in July.",
     },
     {
-      image: 'images/speaker_05.png',
+      image: 'images/speakers/speaker_05.png',
       name: 'Lila Trettikov',
       position: 'Executive Director of the Wikimedia Foundation',
-      experience: 'Lila Tretikov is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languages and used monthly by nearly half a billion people.',
+      experience:
+        'Lila Tretikov is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languages and used monthly by nearly half a billion people.',
     },
     {
-      image: 'images/speaker_06.png',
+      image: 'images/speakers/speaker_06.png',
       name: 'Ryan Merkley',
       position: 'CEO of Creative Commons, ex COO of the Mozilla Foundation',
-      experience: 'Ryan has been leading open-source projects at the Mozilla Foundation such as open source movement.',
+      experience:
+        'Ryan has been leading open-source projects at the Mozilla Foundation such as open source movement.',
     },
   ],
 };

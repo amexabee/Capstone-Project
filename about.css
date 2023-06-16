@@ -35,7 +35,7 @@ li a {
 
 footer img {
   padding: 60px;
-  height: 80px;
+  height: 40px;
 }
 
 main section img {
@@ -146,7 +146,7 @@ footer section img:last-child {
 }
 
 #conf-logo img {
-  width: 350px;
+  width: 180px;
   margin-top: 40px;
   border: 1px solid #d3d3d3;
   padding: 50px;
@@ -255,6 +255,7 @@ main section {
   text-align: center;
   background-color: #272a31;
   height: 300px;
+  padding-bottom: 20px;
 }
 
 .partners h3 {
@@ -279,7 +280,6 @@ footer {
   align-items: center;
   color: #272a31;
   font-size: 0.75rem;
-  padding: 24px 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -298,6 +298,10 @@ footer {
   .navigation {
     justify-content: space-around;
     padding: 10px 0 10px 80px;
+  }
+
+  footer img {
+    height: 80px;
   }
 
   .mobile-menu-btn {

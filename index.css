@@ -241,7 +241,7 @@ main section {
   margin: 0;
 }
 
-.program section > div {
+.programs > div {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -310,6 +310,10 @@ main section {
 
 .speaker-list {
   overflow: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0;
+  background-color: red;
 }
 
 .speaker {
@@ -482,23 +486,19 @@ footer {
     font-size: 30px;
   }
 
-  .program section {
+  .programs {
     display: flex;
     justify-content: center;
   }
 
-  .program section > div {
+  .program-list {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    text-align: center;
-    margin: 1.5px;
     width: calc(20% - 50px);
-    overflow: hidden;
     border: 1px solid rgb(62, 62, 62);
   }
 
-  .program section > div:hover {
+  .program-list:hover {
     cursor: pointer;
     border: 1px solid rgb(194, 194, 194);
   }

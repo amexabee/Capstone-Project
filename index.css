@@ -35,6 +35,7 @@ li a {
 
 footer img {
   padding: 60px;
+  height: 40px;
 }
 
 main section img {
@@ -241,7 +242,7 @@ main section {
   margin: 0;
 }
 
-.program section > div {
+.programs > div {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -305,24 +306,20 @@ main section {
 .line {
   width: 53px;
   border-bottom: 1px solid rgb(239, 81, 60);
-  margin: 0 auto 54px;
+  margin: 20px auto 54px;
 }
 
 .speaker-list {
   overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
 }
 
 .speaker {
-  width: 100%;
-  margin: 0 0 1.5rem 0;
-  border: 0;
-  float: left;
-}
-
-.speaker-img {
-  float: left;
-  width: 178px;
-  margin-right: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  min-width: 95%;
 }
 
 .name {
@@ -330,22 +327,20 @@ main section {
   font-weight: bold;
   text-align: left;
   vertical-align: bottom;
-  margin-top: 28px;
+  margin: 28px 10px 0;
 }
 
 .position {
   font-size: 13px;
   color: rgb(255, 79, 56);
   text-align: left;
-  margin-top: 10px;
+  margin: 10px 10px 0;
 }
 
 .experience {
   font-size: 13px;
   text-align: left;
-  padding-top: 7px;
-  padding-left: 20px;
-  padding-right: 1rem;
+  margin: 10px 10px 0;
   line-height: 150%;
   word-break: break-all;
 }
@@ -377,12 +372,10 @@ main section {
 footer {
   background-color: #d3d3d3;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   color: #272a31;
   font-size: 0.75rem;
-  padding: 24px 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -403,6 +396,11 @@ footer {
   .navigation {
     justify-content: space-around;
     padding: 10px 0 10px 80px;
+  }
+
+  footer img {
+    padding: 60px;
+    height: 80px;
   }
 
   .mobile-menu-btn {
@@ -482,23 +480,19 @@ footer {
     font-size: 30px;
   }
 
-  .program section {
+  .programs {
     display: flex;
     justify-content: center;
   }
 
-  .program section > div {
+  .program-list {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    text-align: center;
-    margin: 1.5px;
     width: calc(20% - 50px);
-    overflow: hidden;
     border: 1px solid rgb(62, 62, 62);
   }
 
-  .program section > div:hover {
+  .program-list:hover {
     cursor: pointer;
     border: 1px solid rgb(194, 194, 194);
   }
@@ -540,6 +534,13 @@ footer {
     font-size: 1.875rem;
   }
 
+  .speaker-list {
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
   .speaker {
     width: calc(50% - 10px);
     margin: 0 0 0 10px;
@@ -557,11 +558,11 @@ footer {
 
   .guide-line {
     position: relative;
-    left: 210px;
+    left: 12px;
     top: 10px;
     width: 24px;
     border-top: 1px solid rgb(194, 194, 194);
-    margin-bottom: 24px;
+    margin: 10px 0 30px;
   }
 
   .experience {

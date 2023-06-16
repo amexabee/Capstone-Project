@@ -35,7 +35,7 @@ li a {
 
 footer img {
   padding: 60px;
-  height: 80px;
+  height: 40px;
 }
 
 main section img {
@@ -312,7 +312,7 @@ main section {
 .speaker-list {
   overflow: auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 10px;
 }
 
@@ -372,12 +372,10 @@ main section {
 footer {
   background-color: #d3d3d3;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   color: #272a31;
   font-size: 0.75rem;
-  padding: 24px 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -398,6 +396,11 @@ footer {
   .navigation {
     justify-content: space-around;
     padding: 10px 0 10px 80px;
+  }
+
+  footer img {
+    padding: 60px;
+    height: 80px;
   }
 
   .mobile-menu-btn {
@@ -529,6 +532,13 @@ footer {
 
   .speaker-section h1 {
     font-size: 1.875rem;
+  }
+
+  .speaker-list {
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 
   .speaker {

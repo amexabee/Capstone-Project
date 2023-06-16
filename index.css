@@ -35,6 +35,7 @@ li a {
 
 footer img {
   padding: 60px;
+  height: 80px;
 }
 
 main section img {
@@ -311,22 +312,15 @@ main section {
 .speaker-list {
   overflow: auto;
   display: grid;
-  grid-template-columns: auto auto;
-  gap: 0;
-  background-color: red;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 
 .speaker {
-  width: 100%;
-  margin: 0 0 1.5rem 0;
-  border: 0;
-  float: left;
-}
-
-.speaker-img {
-  float: left;
-  width: 178px;
-  margin-right: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  min-width: 80%;
+  border: 1px solid red;
 }
 
 .name {
@@ -334,22 +328,20 @@ main section {
   font-weight: bold;
   text-align: left;
   vertical-align: bottom;
-  margin-top: 28px;
+  margin: 28px 10px 0;
 }
 
 .position {
   font-size: 13px;
   color: rgb(255, 79, 56);
   text-align: left;
-  margin-top: 10px;
+  margin: 10px 10px 0;
 }
 
 .experience {
   font-size: 13px;
   text-align: left;
-  padding-top: 7px;
-  padding-left: 20px;
-  padding-right: 1rem;
+  margin: 10px 10px 0;
   line-height: 150%;
   word-break: break-all;
 }

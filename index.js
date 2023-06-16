@@ -79,13 +79,12 @@ const speakers = {
 const speakerSection = document.querySelector('.speaker-list');
 speakers.speakerList.forEach((s) => {
   speakerSection.innerHTML += `<div class="speaker">
-          <div class="speaker-img">
-            <img src="${s.image}" alt="">
-          </div>
+          <img src="${s.image}" alt="">
+          <div class="speaker-details">
           <div class="name"><a href="">${s.name}</a></div>
           <div class="position">${s.position}</div>
           <div class="guide-line"></div>
-          <div class="experience">${s.experience}</div>
+          <div class="experience">${s.experience}</div></div>
          </div>`;
 });
 
